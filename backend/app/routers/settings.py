@@ -73,3 +73,4 @@ def reset_demo_data(db: Session = Depends(get_db)):
     seed_database(db)
     
     return {"success": True, "message": "Demo database successfully reset and seeded!"}
+

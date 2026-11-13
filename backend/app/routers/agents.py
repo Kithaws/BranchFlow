@@ -119,3 +119,4 @@ def get_agent_logs(limit: int = 20, event_id: Optional[int] = None, db: Session 
     if event_id:
         query = query.filter(AgentExecutionLog.event_id == event_id)
     return query.order_by(AgentExecutionLog.created_at.desc()).limit(limit).all()
+

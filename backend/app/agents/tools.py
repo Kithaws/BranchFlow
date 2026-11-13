@@ -138,3 +138,4 @@ def record_agent_log(
     db.commit()
     db.refresh(log)
     return log
+

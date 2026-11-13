@@ -56,3 +56,4 @@ def delete_volunteer(volunteer_id: int, db: Session = Depends(get_db)):
     db.delete(vol)
     db.commit()
     return {"success": True, "message": "Volunteer deleted successfully"}
+

@@ -135,3 +135,4 @@ def recommend_volunteers_for_event_tasks(db: Session, event_id: int) -> List[Dic
         rec["task_id"] = task_dicts[idx]["id"]
         
     return recommendations
+

@@ -117,3 +117,4 @@ def audit_event_progress(db: Session, event_id: Optional[int] = None) -> Dict[st
         "insights": insights,
         "recommended_actions": recommended_actions
     }
+

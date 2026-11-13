@@ -163,3 +163,4 @@ class AgentExecutionLog(Base):
     created_at = Column(DateTime, default=datetime.datetime.utcnow)
 
     event = relationship("Event", back_populates="agent_logs")
+

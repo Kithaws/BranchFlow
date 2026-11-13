@@ -40,3 +40,4 @@ async def dispatch_n8n_webhook(event_type: str, payload: Dict[str, Any]) -> Dict
     except Exception as e:
         logger.warning(f"[n8n Automation Error]: {e}")
         return {"status": "error", "message": str(e)}
+

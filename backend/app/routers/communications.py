@@ -82,3 +82,4 @@ def generate_communication_ai(payload: CommGenRequest, db: Session = Depends(get
     )
     
     return comm
+

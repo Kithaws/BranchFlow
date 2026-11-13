@@ -217,3 +217,4 @@ npm run dev
 
 ## 📄 License
 MIT License. Built for collegiate student branches and hackathon organizing committees.
+

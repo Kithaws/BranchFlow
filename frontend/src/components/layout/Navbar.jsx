@@ -69,3 +69,4 @@ export default function Navbar({ systemSettings, onNavigate, onOpenAiModal }) {
     </header>
   );
 }
+

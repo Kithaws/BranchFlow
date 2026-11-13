@@ -39,3 +39,4 @@ export default function StatCard({ title, value, change, trend = 'neutral', icon
     </div>
   );
 }
+

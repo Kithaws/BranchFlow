@@ -590,3 +590,4 @@ Link in bio to reserve your seat! Only 100 spots available. 🚀
     db.add_all([log1, log2, log3])
     db.commit()
     print("Database seeding successfully completed!")
+

@@ -27,3 +27,4 @@ class EventPlanningState(TypedDict, total=False):
     # Event ID if persisted
     event_id: Optional[int]
     error: Optional[str]
+

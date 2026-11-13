@@ -288,3 +288,4 @@ def commit_approved_plan(
         "event_id": event.id,
         "message": f"Event '{event.title}' and {len(created_tasks)} tasks successfully approved and persisted."
     }
+

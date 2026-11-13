@@ -106,3 +106,4 @@ def delete_event(event_id: int, db: Session = Depends(get_db)):
     db.delete(event)
     db.commit()
     return {"success": True, "message": "Event deleted successfully"}
+

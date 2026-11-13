@@ -90,3 +90,4 @@ def plan_event_from_prompt(prompt: str) -> Dict[str, Any]:
     elapsed_ms = int((time.time() - start_time) * 1000)
     plan_dict["_execution_time_ms"] = elapsed_ms
     return plan_dict
+

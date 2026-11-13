@@ -80,3 +80,4 @@ def health_check():
         "gemini_active": settings_router.is_gemini_active(),
         "database": "SQLite connected"
     }
+

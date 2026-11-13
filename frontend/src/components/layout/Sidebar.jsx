@@ -108,3 +108,4 @@ export default function Sidebar({ currentTab, onNavigate, onGoToLanding }) {
     </aside>
   );
 }
+

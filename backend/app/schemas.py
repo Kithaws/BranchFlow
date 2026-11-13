@@ -248,3 +248,4 @@ class SettingsUpdate(BaseModel):
     gemini_model: Optional[str] = None
     n8n_webhook_url: Optional[str] = None
     n8n_enabled: Optional[bool] = None
+

@@ -90,3 +90,4 @@ export const api = {
   resetDemoData: () => request('/settings/reset-demo-data', { method: 'POST' }),
   getHealth: () => request('/health'),
 };
+

@@ -124,3 +124,4 @@ def get_dashboard_summary(db: Session, org_id: int = 1) -> Dict[str, Any]:
         "upcoming_events": upcoming_events_data,
         "recent_activities": recent_activities
     }
+

@@ -106,3 +106,4 @@ def generate_document_ai(payload: DocGenRequest, db: Session = Depends(get_db)):
     )
     
     return doc
+
