@@ -204,16 +204,6 @@ npm run dev
 
 ---
 
-## 💡 Technical Interview Q&A Talking Points
-
-1. **Why LangGraph instead of a simple OpenAI or Gemini function call?**
-   - *Answer*: Student event planning requires a phased state graph where the output of requirement extraction feeds into both schedule generation and volunteer skill matching. LangGraph allows explicit state modeling (`EventPlanningState`), conditional transitions, execution tracing, and most importantly, non-destructive **Human-in-the-Loop** checkpoints (`interrupt` / pending approval) before database mutations occur.
-2. **How does the system prevent hallucinated volunteer assignments?**
-   - *Answer*: The Volunteer Management Agent accesses the SQLite database via structured tools to retrieve verified volunteer profiles, active task burdens, and skill tags. Fitness scores are computed deterministically based on skill overlap, remaining capacity, and reliability rating.
-3. **How does the system ensure zero downtime without an API key?**
-   - *Answer*: BranchFlow features a deterministic heuristic fallback engine. If an API key is omitted, rate-limited, or network is unavailable, the application continues to provide fully structured schedules, task checklists, and realistic documents seamlessly.
-
----
 
 ## 📄 License
 MIT License. Built for collegiate student branches and hackathon organizing committees.
