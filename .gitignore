@@ -1,0 +1,27 @@
+# Dependencies
+node_modules/
+__pycache__/
+*.py[cod]
+*$py.class
+*.env
+
+# Build outputs
+dist/
+build/
+*.egg-info/
+
+# Databases & local stores
+*.db
+*.sqlite3
+
+# Environment
+venv/
+.venv/
+env/
+.env.local
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
